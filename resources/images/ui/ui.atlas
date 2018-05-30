@@ -1,0 +1,420 @@
+ui.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+button_default
+  rotate: false
+  xy: 1, 275
+  size: 20, 20
+  split: 9, 9, 10, 9
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+button_default_highlight
+  rotate: false
+  xy: 22, 275
+  size: 20, 20
+  split: 9, 9, 10, 9
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+button_default_pressed
+  rotate: false
+  xy: 43, 275
+  size: 20, 20
+  split: 9, 9, 10, 9
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+button_default_disabled
+  rotate: false
+  xy: 66, 275
+  size: 20, 20
+  split: 9, 9, 10, 9
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+button_menu
+  rotate: false
+  xy: 85, 275
+  size: 20, 20
+  split: 9, 9, 10, 9
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+button_menu_highlight
+  rotate: false
+  xy: 106, 275
+  size: 20, 20
+  split: 9, 9, 10, 9
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+button_menu_pressed
+  rotate: false
+  xy: 127, 275
+  size: 20, 20
+  split: 9, 9, 10, 9
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+button_tabpane_pressed
+  rotate: false
+  xy: 148, 275
+  size: 20, 20
+  split: 2, 2, 2, 2
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+scrollbar_button_vertical
+  rotate: false
+  xy: 1, 296
+  size: 20, 20
+  split: 9, 9, 10, 9
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+scrollbar_button_horizontal
+  rotate: false
+  xy: 22, 296
+  size: 20, 20
+  split: 9, 9, 10, 9
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+scrollbar_body
+  rotate: false
+  xy: 43, 296
+  size: 20, 20
+  split: 1, 1, 1, 1
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+textfield_body
+  rotate: false
+  xy: 64, 296
+  size: 20, 20
+  split: 3, 3, 3, 3
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+textfield_selection
+  rotate: false
+  xy: 155, 303
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+textfield_cursor
+  rotate: false
+  xy: 159, 303
+  size: 1, 3
+  split: 0, 0, 0, 0
+  orig: 1, 3
+  offset: 0, 0
+  index: -1
+pane_bright
+  rotate: false
+  xy: 85, 296
+  size: 20, 20
+  split: 6, 6, 12, 6
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+pane_dark
+  rotate: false
+  xy: 106, 296
+  size: 20, 20
+  split: 6, 6, 6, 6
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+pane_menu
+  rotate: false
+  xy: 127, 296
+  size: 20, 20
+  split: 6, 6, 6, 6
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+label_heading_menu_background
+  rotate: false
+  xy: 148, 303
+  size: 6, 6
+  split: 2, 2, 2, 2
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+label_popup_background
+  rotate: false
+  xy: 148, 296
+  size: 6, 6
+  split: 2, 2, 2, 2
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+list_selection
+  rotate: false
+  xy: 155, 296
+  size: 6, 6
+  split: 2, 2, 2, 2
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+checkbox_unchecked
+  rotate: false
+  xy: 1, 317
+  size: 16, 16
+  split: 5, 5, 5, 4
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+checkbox_checked
+  rotate: false
+  xy: 18, 317
+  size: 16, 16
+  split: 5, 5, 5, 4
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+sidebar_shadow
+  rotate: false
+  xy: 169, 274
+  size: 11, 60
+  split: 0, 0, 0, 0
+  orig: 11, 60
+  offset: 0, 0
+  index: -1
+rect_green
+  rotate: false
+  xy: 266, 45
+  size: 64, 64
+  split: 0, 0, 0, 0
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+rect_red
+  rotate: false
+  xy: 266, 109
+  size: 64, 64
+  split: 0, 0, 0, 0
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+rect_white
+  rotate: false
+  xy: 266, 173
+  size: 64, 64
+  split: 0, 0, 0, 0
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+rect_yellow
+  rotate: false
+  xy: 266, 237
+  size: 64, 64
+  split: 0, 0, 0, 0
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+icon_scrollCenter
+  rotate: false
+  xy: 0, 45
+  size: 69, 69
+  split: 0, 0, 0, 0
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+icon_markObject
+  rotate: false
+  xy: 69, 45
+  size: 58, 58
+  split: 0, 0, 0, 0
+  orig: 58, 58
+  offset: 0, 0
+  index: -1
+icon_leftMouse
+  rotate: false
+  xy: 127, 45
+  size: 55, 68
+  split: 0, 0, 0, 0
+  orig: 55, 68
+  offset: 0, 0
+  index: -1
+icon_rightMouse
+  rotate: false
+  xy: 182, 45
+  size: 55, 68
+  split: 0, 0, 0, 0
+  orig: 55, 68
+  offset: 0, 0
+  index: -1
+icon_play
+  rotate: false
+  xy: 0, 334
+  size: 258, 258
+  split: 0, 0, 0, 0
+  orig: 258, 258
+  offset: 0, 0
+  index: -1
+icon_editor
+  rotate: false
+  xy: 0, 592
+  size: 258, 258
+  split: 0, 0, 0, 0
+  orig: 258, 258
+  offset: 0, 0
+  index: -1
+icon_settings
+  rotate: false
+  xy: 0, 850
+  size: 258, 258
+  split: 0, 0, 0, 0
+  orig: 258, 258
+  offset: 0, 0
+  index: -1
+icon_quit
+  rotate: false
+  xy: 258, 335
+  size: 72, 72
+  split: 0, 0, 0, 0
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+icon_highlight_small
+  rotate: false
+  xy: 258, 406
+  size: 72, 72
+  split: 0, 0, 0, 0
+  orig: 72, 72
+  offset: 0, 0
+  index: -1
+icon_highlight_large
+  rotate: false
+  xy: 0, 1108
+  size: 258, 258
+  split: 0, 0, 0, 0
+  orig: 258, 258
+  offset: 0, 0
+  index: -1
+toolbar_file
+  rotate: false
+  xy: 0, 114
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_map
+  rotate: false
+  xy: 32, 114
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_objects
+  rotate: false
+  xy: 64, 114
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_system
+  rotate: false
+  xy: 96, 114
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_file_new
+  rotate: false
+  xy: 0, 146
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_file_save
+  rotate: false
+  xy: 32, 146
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_file_load
+  rotate: false
+  xy: 64, 146
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_map_environment
+  rotate: false
+  xy: 0, 178
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_map_tiles
+  rotate: false
+  xy: 32, 178
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_map_conditions
+  rotate: false
+  xy: 64, 178
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_obj_place
+  rotate: false
+  xy: 0, 210
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_obj_attributes
+  rotate: false
+  xy: 32, 210
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_sys_menu
+  rotate: false
+  xy: 0, 242
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+toolbar_sys_settings
+  rotate: false
+  xy: 32, 242
+  size: 32, 32
+  split: 0, 0, 0, 0
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+scoreBoard
+  rotate: false
+  xy: 0, 0
+  size: 330, 45
+  split: 0, 0, 0, 0
+  orig: 330, 45
+  offset: 0, 0
+  index: -1

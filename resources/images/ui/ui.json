@@ -1,0 +1,65 @@
+{
+	com.badlogic.gdx.graphics.Color:
+	{
+		black:      { r: 0.00, g: 0.00, b: 0.00, a: 1.00 },
+		blue:       { r: 0.26, g: 0.66, b: 1.00, a: 1.00 }
+		grey_light: { r: 0.30, g: 0.30, b: 0.30, a: 1.00 },
+		grey_dark:  { r: 0.20, g: 0.20, b: 0.20, a: 1.00 },
+		white:      { r: 1.00, g: 1.00, b: 1.00, a: 1.00 },
+		yellow:     { r: 1.00, g: 0.90, b: 0.28, a: 1.00 }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle:
+	{
+		default: { down: button_default_pressed, over:    button_default_highlight, up: button_default },
+		tabpane: { down: button_tabpane_pressed, checked: button_tabpane_pressed }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle:
+	{
+		default: { down: button_default_pressed, over:    button_default_highlight, up: button_default, font: font_small, fontColor: white },
+		menu:    { down: button_menu_pressed,    over:    button_menu_highlight,    up: button_menu,    font: font_small, fontColor: white },
+		tabpane: { down: button_tabpane_pressed, checked: button_tabpane_pressed,                       font: font_small, fontColor: white }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle:
+	{
+		default:     { down: button_default_pressed, up:      button_default },
+		tabpane:     { down: button_tabpane_pressed, checked: button_tabpane_pressed }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle:
+	{
+		default:          { vScroll: scrollbar_body, hScrollKnob: scrollbar_button_horizontal, hScroll: scrollbar_body, vScrollKnob: scrollbar_button_vertical, background: pane_bright },
+		dark:             { vScroll: scrollbar_body, hScrollKnob: scrollbar_button_horizontal, hScroll: scrollbar_body, vScrollKnob: scrollbar_button_vertical, background: pane_dark   },
+		menu:             { vScroll: scrollbar_body, hScrollKnob: scrollbar_button_horizontal, hScroll: scrollbar_body, vScrollKnob: scrollbar_button_vertical, background: pane_menu   },
+		transparent:      { vScroll: scrollbar_body, hScrollKnob: scrollbar_button_horizontal, hScroll: scrollbar_body, vScrollKnob: scrollbar_button_vertical }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle:
+	{
+		default:        { font: font_small,  fontColor: white },
+		default_medium: { font: font_medium, fontColor: white },
+		heading:        { font: font_small,  fontColor: yellow },
+		heading_medium: { font: font_medium, fontColor: yellow },
+		heading_menu:   { font: font_medium, fontColor: grey_light, background: label_heading_menu_background },
+		popup:          { font: font_small,  fontColor: white,      background: label_popup_background },
+		popup_big:      { font: font_big,    fontColor: white,      background: label_popup_background }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle:
+	{
+		default: { background: textfield_body, selection: textfield_selection, cursor: textfield_cursor, font: font_small, fontColor: grey_dark }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle:
+	{
+		default: { checkboxOn: checkbox_checked, checkboxOff: checkbox_unchecked, font: font_small, fontColor: white }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle:
+	{
+		default-horizontal: { background: scrollbar_body, knob: scrollbar_button_horizontal }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle:
+	{
+		default: { selection: list_selection, fontColorUnselected: white, fontColorSelected: yellow, font: font_small }
+	},
+	com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle:
+	{
+		default: { background: button_default, backgroundOpen: button_default_pressed, listStyle: default, scrollStyle: dark, font: font_small, fontColor: white }
+		menu:    { background: button_menu,    backgroundOpen: button_menu_pressed,    listStyle: default, scrollStyle: dark, font: font_small, fontColor: white }
+	}
+}
